@@ -190,20 +190,33 @@ i.fa-step-backward{
 
 @media (max-width:1200px) {
     html{
-        font-size: 90%;
+        font-size: 75%;
     }
     body{
         overflow: hidden;
     }
-
 }
 
-@media (max-width:450px) {
+@media (max-width:430px) {
     html{
-        font-size: 80%;
+        font-size: 70%;
     }
     body{
         overflow: hidden;
+    }
+    .track-art{
+        height: 120px;
+        width: 120px;
+       }
+       .track-name{
+        font-size: 1.8rem;
+    }
+    .loader{
+        height: 35px;
+    
+    }
+    .loader .stroke{
+        height: 100%;
     }
     
     
@@ -214,7 +227,21 @@ i.fa-step-backward{
         overflow: hidden;
     }
     html{
-        font-size: 70%;
+        font-size: 60%;
     }
+   .track-art{
+    height: 150px;
+    width: 150px;
+   }
+   .track-name{
+    font-size: 2rem;
+}
+.loader{
+    height: 40px;
+
+}
+.loader .stroke{
+    height: 120%;
+}
 }
 
